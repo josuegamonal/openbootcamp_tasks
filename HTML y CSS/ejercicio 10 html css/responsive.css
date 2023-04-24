@@ -1,0 +1,29 @@
+.principal {
+	display: flex;
+}
+
+.seccion-principal {
+background-color: aqua;
+display: flex;
+flex-grow: 1;
+}
+
+.barra-lateral {
+	background-color: bisque;
+	display: flex;
+	flex-direction: column;
+}
+
+.item {
+	padding: 10px;
+}
+
+@media (max-width: 640px){
+	.principal{
+		flex-direction: column-reverse;
+	}
+	.barra-lateral {
+		flex-direction: row;
+	}
+
+}
