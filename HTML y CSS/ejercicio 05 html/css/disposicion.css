@@ -1,0 +1,9 @@
+img{
+	width: 300px;
+}
+
+.div_flex {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
